@@ -1,8 +1,7 @@
 {
   "name": "epidermis",
   "description": "epidermis is truly next-generation - it turns CSS into a complete development toolkit that goes far beyond what any existing framework offers!",
-
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "index.js",
   "scripts": {
