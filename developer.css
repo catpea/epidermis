@@ -673,3 +673,22 @@
 .production-mode .construction {
   display: none !important;
 }
+
+
+
+ .preview {
+    box-sizing: border-box;
+
+   --scale: var(--preview-scale, 0.5);              /* change this if you want a different scale */
+
+   transform: scale(var(--scale));
+   transform-origin: top left;
+
+   width: calc(100% / var(--scale));
+   height: calc(100% / var(--scale));
+
+   overflow: auto;            /* show scrollbars if content exceeds viewport */
+
+   /* bonus*/
+   > * { border-radius: calc(var(--border-radius) / var(--scale)) }
+ }

@@ -1,5 +1,7 @@
 const template = document.createElement("template");
+
 template.innerHTML = `
+
   <link href="../reset.css" rel="stylesheet">
   <link href="../controls.css" rel="stylesheet">
   <link href="../developer.css" rel="stylesheet">
